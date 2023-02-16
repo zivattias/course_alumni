@@ -49,7 +49,26 @@ function searchToggler() {
 function formSubmitHandler(event) {
     event.preventDefault()
     const formData = new FormData(event.target)
-    for (const pair of formData.entries()) {
-        console.log(pair)
+    const formDataArray = Array.from(formData)
+    const formDataValid = formDataArray.filter((pair) => pair[1] !== '' && pair[1] !== 'default')
+
+    let apiURL = "http://127.0.0.1:8000/api/students?"
+    const queryParams = new URLSearchParams(formDataValid)
+    if (queryParams) {
+        apiURL += queryParams
     }
+
+    // Disable form fields while request is in the works:
+    event.target.querySelectorAll('input, button, select').forEach((field) => {
+        field.setAttribute('disabled', true)
+    })
+    fetch(`${apiURL}`)
+        .then((response) => response.json())
+        .then((data) => {
+            console.log(data)
+            event.target.querySelectorAll('input, button, select').forEach((field) => {
+                field.removeAttribute('disabled')
+            })
+
+        })
 }

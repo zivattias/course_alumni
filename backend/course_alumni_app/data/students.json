@@ -2,11 +2,19 @@
     {
         "fullname": "Ziv Attias",
         "enrollment_date": "2022-11-01",
+        "gender": "Male",
         "profile_pic": "https://media.licdn.com/dms/image/D4E03AQFbVgBwVYP4pQ/profile-displayphoto-shrink_400_400/0/1668793430015?e=1681948800&v=beta&t=2gOnNfAhItjD1yrs_OFBvgbGYn44U9yz1VRXh8JKvFI"
     },
     {
         "fullname": "Eyal Mogenshtein",
         "enrollment_date": "2022-11-01",
+        "gender": "Male",
         "profile_pic": "https://media.licdn.com/dms/image/D4D03AQG_v3ainmv9oA/profile-displayphoto-shrink_400_400/0/1675776737474?e=1681948800&v=beta&t=XcUUiW_7ophjCOYmKEzXCUC_MEtzZPZ05BV0h9BjXQw"
+    },
+    {
+        "fullname": "Yael Ben Yair",
+        "enrollment_date": "2022-11-01",
+        "gender": "Female",
+        "profile_pic": "https://media.licdn.com/dms/image/D4D03AQF2bd5TML6Xlw/profile-displayphoto-shrink_800_800/0/1666677660569?e=1681948800&v=beta&t=0rCKdYgrZ7ybMiYlj2EPVfOkvP7K0zh-i6XrAJ4lqSs"
     }
 ]

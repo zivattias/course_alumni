@@ -15,4 +15,5 @@ for i, student_data in enumerate(students):
         fullname=students[i]["fullname"],
         enrollment_date=students[i]["enrollment_date"],
         profile_pic=students[i]["profile_pic"],
+        gender=students[i]["gender"],
     ).save()

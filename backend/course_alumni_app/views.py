@@ -18,4 +18,15 @@ def get_students(request: Request):
         )
     if "lastname" in request.query_params:
         students = students.filter(fullname__icontains=request.query_params["lastname"])
-    # Add gender to Student model
+    if "gender" in request.query_params:
+        students = students.filter(gender=request.query_params["gender"])
+    if "enrollment_date" in request.query_params:
+        students = students.filter(
+            enrollment_date=request.query_params["enrollment_date"]
+        )
+
+    if not students:
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+    serializer = StudentSerializer(students, many=True)
+    return Response(serializer.data)

@@ -40,28 +40,30 @@
                         <span class="input-group-text" id="whatFullname">Fullname</span>
                     </div>
                     <input type="text" class="form-control" placeholder="Search by fullname" name="fullname"
-                        data-name-search="full" required>
+                        data-name-search="full">
                 </div>
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="whatNameSeparated">First and last name</span>
                     </div>
                     <input type="text" class="form-control" placeholder="First name contains..." name="firstname"
-                        data-name-search="partial" required>
+                        data-name-search="partial">
                     <input type="text" class="form-control" placeholder="Last name contains..." name="lastname"
-                        data-name-search="partial" required>
+                        data-name-search="partial">
                 </div>
-                <select class="form-control w-75 mt-3" id="whatType" name="gender">
+                <select class="form-control w-100 mt-3" id="whatType" name="gender">
                     <option value="default">Choose a gender...</option>
-                    <option>Female</option>
-                    <option>Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
                 </select>
-                <select class="form-control w-75 mt-3" id="whatCourse" name="enrollment_date">
+                <select class="form-control w-100 mt-3" id="whatCourse" name="enrollment_date">
                     <option value="default">Choose course date...</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-outline-primary mr-4">Submit</button>
-            <button type="reset" class="btn btn-outline-dark">Reset</button>
+            <div class="d-flex justify-content-center align-items center">
+                <button type="submit" class="btn btn-outline-primary mr-4">Submit</button>
+                <button type="reset" class="btn btn-outline-dark">Reset</button>
+            </div>
         </form>
     </div>
 </body>
