@@ -63,12 +63,27 @@ function formSubmitHandler(event) {
         field.setAttribute('disabled', true)
     })
     fetch(`${apiURL}`)
-        .then((response) => response.json())
-        .then((data) => {
-            console.log(data)
+        .then((response) => {
+            if (response.status !== 200) {
+                console.log("No data matching search")
+            } else {
+                return response.json()
+                    .then((data) => {
+                        console.log(data)
+                        event.target.querySelectorAll('input, button, select').forEach((field) => {
+                            field.removeAttribute('disabled')
+                        })
+                    })
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error)
+        })
+        .finally(() => {
+            // Enable form fields and reset the form:
             event.target.querySelectorAll('input, button, select').forEach((field) => {
                 field.removeAttribute('disabled')
             })
-
+            event.target.reset()
         })
 }
