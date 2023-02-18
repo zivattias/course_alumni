@@ -16,5 +16,11 @@
         "enrollment_date": "2022-11-01",
         "gender": "Female",
         "profile_pic": "https://media.licdn.com/dms/image/D4D03AQF2bd5TML6Xlw/profile-displayphoto-shrink_800_800/0/1666677660569?e=1681948800&v=beta&t=0rCKdYgrZ7ybMiYlj2EPVfOkvP7K0zh-i6XrAJ4lqSs"
+    },
+    {
+        "fullname": "Daniel Raz",
+        "enrollment_date": "2022-11-01",
+        "gender": "Male",
+        "profile_pic": "https://media.licdn.com/dms/image/D4D03AQEbcJYMjIWOnA/profile-displayphoto-shrink_800_800/0/1667814083685?e=1681948800&v=beta&t=Ntj_JPGzkqXJRhRPkfgMTRTPAZjyYInTuhqKM05RrTw"
     }
 ]

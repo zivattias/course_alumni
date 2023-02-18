@@ -22,8 +22,8 @@
     <script src="scripts/students.js"></script>
 </head>
 
-<body>
-    <nav class="navbar bg-light bg-gradient shadow">
+<body style="padding-bottom: 3em;">
+    <nav class="navbar bg-light bg-gradient shadow sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./imgs/edulabs_logo.svg" alt="Logo" class="d-inline-block">
@@ -64,7 +64,12 @@
                 <button type="submit" class="btn btn-outline-primary mr-4">Submit</button>
                 <button type="reset" class="btn btn-outline-dark">Reset</button>
             </div>
+            <div id="searchAlert" class="alert alert-danger mt-3 d-none" role="alert">
+                Couldn't find students matching your search query! Please try again.
+            </div>
         </form>
+    </div>
+    <div id="studentsContainer" class="container p-5 mt-5 border rounded d-flex flex-column justify-content-between">
     </div>
 </body>
 

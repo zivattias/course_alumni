@@ -11,9 +11,10 @@ with open("backend/course_alumni_app/data/students.json", "r") as fh:
     students = json.load(fh)
 
 for i, student_data in enumerate(students):
-    Student(
-        fullname=students[i]["fullname"],
-        enrollment_date=students[i]["enrollment_date"],
-        profile_pic=students[i]["profile_pic"],
-        gender=students[i]["gender"],
-    ).save()
+    if students[i]["fullname"] == "Daniel Raz":
+        Student(
+            fullname=students[i]["fullname"],
+            enrollment_date=students[i]["enrollment_date"],
+            profile_pic=students[i]["profile_pic"],
+            gender=students[i]["gender"],
+        ).save()
