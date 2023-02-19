@@ -11,7 +11,7 @@ with open("backend/course_alumni_app/data/students.json", "r") as fh:
     students = json.load(fh)
 
 for i, student_data in enumerate(students):
-    if students[i]["fullname"] == "Daniel Raz":
+    if students[i]["fullname"] not in ["Daniel Raz", "Eyal Mogenshtein", "Yael Ben Yair", "Ziv Attias"]:
         Student(
             fullname=students[i]["fullname"],
             enrollment_date=students[i]["enrollment_date"],

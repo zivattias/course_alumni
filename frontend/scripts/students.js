@@ -106,7 +106,7 @@ function dataInit(apiURL) {
             for (const [index, studentObj] of data.entries()) {
                 if (index === 0 || index % 3 === 0) {
                     const newRow = document.createElement("div")
-                    newRow.setAttribute("class", "row justify-content-between mb-5")
+                    newRow.setAttribute("class", "row justify-content-center mb-5")
                     newRow.append(generateStudent(studentObj))
                     studentsContainer.append(newRow)
                 } else {

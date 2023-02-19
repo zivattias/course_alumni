@@ -22,5 +22,47 @@
         "enrollment_date": "2022-11-01",
         "gender": "Male",
         "profile_pic": "https://media.licdn.com/dms/image/D4D03AQEbcJYMjIWOnA/profile-displayphoto-shrink_800_800/0/1667814083685?e=1681948800&v=beta&t=Ntj_JPGzkqXJRhRPkfgMTRTPAZjyYInTuhqKM05RrTw"
+    },
+    {
+        "fullname": "Daniel Demidovski",
+        "enrollment_date": "2022-11-01",
+        "gender": "Male",
+        "profile_pic": "https://media.licdn.com/dms/image/C4D03AQEyVrngGtfHXg/profile-displayphoto-shrink_800_800/0/1653486168897?e=1682553600&v=beta&t=Kns0u3swefjePfyWwPlkbs0LE935OuIZCxYLikHyfdU"
+    },
+    {
+        "fullname": "David Abelow",
+        "enrollment_date": "2022-11-01",
+        "gender": "Male",
+        "profile_pic": "https://media.licdn.com/dms/image/C4D03AQFxYtxs8Bs_AQ/profile-displayphoto-shrink_400_400/0/1641155067687?e=1682553600&v=beta&t=GCFZLOOvI0EwC5zpo-lwSw3uPwJuZOPCKj0ZMiHUE44"
+    },
+    {
+        "fullname": "Noa Belfer Madar",
+        "enrollment_date": "2022-11-01",
+        "gender": "Female",
+        "profile_pic": "https://media.licdn.com/dms/image/D4D03AQHwV84tpWCXzg/profile-displayphoto-shrink_400_400/0/1665685521615?e=1682553600&v=beta&t=f3FpUQr2YJG-pcXaPieGab-aNXD2fFCNOuwQ0-M4VJ8"
+    },
+    {
+        "fullname": "Tamar Kishoni",
+        "enrollment_date": "2022-11-01",
+        "gender": "Female",
+        "profile_pic": "https://media.licdn.com/dms/image/C4D03AQFO_JYKgZJJFA/profile-displayphoto-shrink_400_400/0/1604567288248?e=1682553600&v=beta&t=Cj5EcIYzcMLE5ROzUEg7Izz_dlHfAq19SDws7rJH9uk"
+    },
+    {
+        "fullname": "Liav Tausi",
+        "enrollment_date": "2022-11-01",
+        "gender": "Male",
+        "profile_pic": "https://media.licdn.com/dms/image/D4D03AQGF-zVC1S-k2g/profile-displayphoto-shrink_400_400/0/1665041300160?e=1682553600&v=beta&t=DJrvfX1iePj1v6NRN60-HTiS6uZo6bLjhBTdTz0LBAM"
+    },
+    {
+        "fullname": "Hemed Tov",
+        "enrollment_date": "2022-11-01",
+        "gender": "Female",
+        "profile_pic": "https://media.licdn.com/dms/image/D4D03AQGzPG8ayY5Oew/profile-displayphoto-shrink_400_400/0/1664440230455?e=1682553600&v=beta&t=iCUVmVPk-d7PNdUjCO22FgbRPsYb1wnE84dAQoZ7tVo"
+    },
+    {
+        "fullname": "Yuval Farchi",
+        "enrollment_date": "2022-11-01",
+        "gender": "Male",
+        "profile_pic": "https://media.licdn.com/dms/image/D4D03AQEPjqRhkHTKLA/profile-displayphoto-shrink_400_400/0/1669040547766?e=1682553600&v=beta&t=S1UbwuA8JFo9-QfYmfyUTv1HlBnlhlhf5TOhCztxMIg"
     }
 ]
